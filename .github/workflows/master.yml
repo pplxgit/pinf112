@@ -13,6 +13,6 @@ jobs:
     steps:
     - name: Increment version
       id: version
-      uses: perfectpattern/IncrementGithubAction@master
+      uses: perfectpattern/IncrementGithubAction@PINF-112_devbranch
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
